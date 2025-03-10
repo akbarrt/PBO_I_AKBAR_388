@@ -4,7 +4,7 @@ import java.time.LocalDate;
 //java api
 //API
 
-public class codelab {
+public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
