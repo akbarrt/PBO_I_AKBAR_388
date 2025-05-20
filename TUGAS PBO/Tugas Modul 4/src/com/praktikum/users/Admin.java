@@ -13,7 +13,6 @@ public class Admin extends User implements AdminActions {
         this.password = password;
     }
 
-    @Override
     public void login() {
         System.out.print("Masukkan Username: ");
         String inputUsername = input.nextLine();
@@ -36,10 +35,15 @@ public class Admin extends User implements AdminActions {
         System.out.println(">> Fitur Kelola Mahasiswa Belum Tersedia <<");
     }
     @Override
+    public void managetest(){
+        System.out.println(">> Fitur Kelola Tester belum tersedia <<");
+    }
+    @Override
     public void displayAppMenu() {
         System.out.println("\n--- Menu Admin ---");
         System.out.println("1. Kelola Barang");
         System.out.println("2. Kelola Pengguna");
+        System.out.println("3. Kelola Tester");
         System.out.print("Pilih Menu: ");
     }
 }

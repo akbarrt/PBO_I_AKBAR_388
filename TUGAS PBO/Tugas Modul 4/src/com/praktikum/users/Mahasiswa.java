@@ -12,7 +12,6 @@ public class Mahasiswa extends User implements MahasiswaActions {
         this.id = id;
     }
 
-    @Override
     public void login() {
         System.out.print("Masukkan Nama: ");
         String inputName = input.nextLine();

@@ -1,6 +1,6 @@
 package com.praktikum.users;
 
-import com.praktikum.actions.UserActions;
+// import com.praktikum.actions.UserActions;
 import java.util.Scanner;
 
 public abstract class User  {
@@ -8,8 +8,6 @@ public abstract class User  {
     protected int id;
     public static Scanner input = new Scanner(System.in);
 
-    @Override
-    public abstract void login();
-    }
+abstract void displayAppMenu();
 
-//Displayappmenu abstract class
+}
